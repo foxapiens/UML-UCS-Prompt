@@ -21,7 +21,7 @@ Bu çalışmada UML, görsel diyagramlar üretmek amacıyla değil, bu diyagraml
 ### UML-UCS (Use Case Scenario) Prompt
 
 UML-UCS Prompt, UML'nin **Use Case (Kullanım Senaryosu)** yaklaşımını temel alan, büyük dil modelleri için geliştirilmiş yapılandırılmış bir istem (prompt) mekanizmasıdır. Geleneksel UML'de Use Case, bir aktörün belirli bir hedefe ulaşmak amacıyla sistemle kurduğu etkileşimi tanımlayan davranışsal bir modeldir. Bu model; aktörü, hedefi, ön koşulları, ana senaryoyu, alternatif senaryoları, hata durumlarını ve sonuç koşullarını sistematik bir bütün hâlinde ele alır. Böylece sistemin teknik ayrıntılarından ziyade, kullanıcı açısından nasıl davranması gerektiği açık ve tutarlı bir senaryo olarak ortaya konur.
-![[images/uml.jpg]]
+![images/uml.jpg]
 UML-UCS Prompt yaklaşımında ise bu modelleme mantığı diyagramlardan bağımsız hâle getirilerek tamamen doğal dile aktarılır. Her istem, bir kullanım senaryosu gibi yapılandırılır; yapay zekânın rolü, amacı, görev kapsamı, kullanacağı bilgiler, izlemesi gereken işlem adımları, olası alternatifler, kısıtlamalar ve beklenen çıktı önceden tanımlanır. Böylece istem, yalnızca bir komut dizisi olmaktan çıkar; belirli kurallara sahip, bağlamı açık, analiz edilebilir ve yeniden kullanılabilir bir senaryo hâline gelir. Bu yaklaşım, büyük dil modellerinin bağlamı daha doğru anlamasını, görevleri daha tutarlı yürütmesini ve farklı senaryolar arasında mantıksal bütünlüğü korumasını amaçlamaktadır.
 
 UML-UCS Prompt'un temel felsefesi, geleneksel UML'nin sistem modelleme disiplinini yapay zekâ istem mühendisliğine uyarlamaktır. Bu sayede istemler yalnızca doğal dil ifadeleri olarak değil, belirli bir modelleme standardına göre hazırlanmış senaryolar olarak ele alınır. Böyle bir yapı, karmaşık görevlerin daha kolay yönetilmesini, istemlerin modüler ve sürdürülebilir biçimde geliştirilmesini, farklı yapay zekâ modelleri arasında daha tutarlı sonuçlar elde edilmesini ve istem tasarım sürecinin sistematik bir mühendislik yaklaşımına dönüştürülmesini hedeflemektedir.
@@ -41,7 +41,7 @@ Dolayısı ile bu teknikle üreteceğimiz prompta hem UML-UCS sürecine göre di
 Antonio programının ilk versiyonu 1 temel frame sistemi üzerine eklenmiş farklı fonksiyonel sayfalardan oluşmaktadır.
 
 ### Log In
-![[login_screen.jpg]]
+![login_screen.jpg]
 Kullanıcıların gerekirse kullanıcı adı ve şifresi ile giriş yapabileceği kayıt olabileceği hatta farklı giriş teknikleri kullanabileceği programın genel yapısına uyan bir giriş ekranı istiyorum. Beni hatırla gibi seçeneklere ve güvenlik bakımından üst seviye olmasına dikkat edelim. Bu kısmın tasarımını sadece resimden almanı ve analiz etmeni istiyorum. Buradaki resim incelemen yeterli gelmez ise anlattığım tasarımlardan ilham veya teknik transferi ile daha anlaşılır bir analiz yapabilirsin.
 
 ### Base Frame Temeli
